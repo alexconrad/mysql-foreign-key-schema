@@ -1,0 +1,1 @@
+# mysql-foreign-key-schema
