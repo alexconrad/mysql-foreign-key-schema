@@ -1,0 +1,33 @@
+{
+  "name": "alexandru.tamcencu/mysql-foreign-key-schema",
+  "authors": [
+    {
+      "name": "Alexandru Tamcencu",
+      "email": "alexandru.tamcencu@payu.ro"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/alexconrad/easy-mysql.git"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": "8.0.*",
+    "php-di/php-di": "^6.3",
+    "alexconrad/easy-mysql": ">=0.0.3",
+    "ext-dom": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "MysqlForeignKeySchema\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "MysqlForeignKeySchema\\": "test/"
+    }
+  }
+
+}
